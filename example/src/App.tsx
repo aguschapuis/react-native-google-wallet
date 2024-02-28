@@ -1,21 +1,15 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text, Button } from 'react-native';
-import { multiply, savePass } from 'react-native-google-wallet';
+import { savePass } from 'react-native-google-wallet';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   const testpass = async () => {
     try {
-      const issuerEmail = 'email@example.com';
-      const issuerId = '33880000000333999289';
-      const passClass =
-        '33880000000333999289.4e5f8a07-2ef9-4d48-91a1-601c1d006db1';
+      const issuerEmail =
+        'wallet-service@manacommon-dev.iam.gserviceaccount.com';
+      const issuerId = '3388000000022321294';
+      const passClass = '3388000000022321294.mana-event';
       const passId =
         Math.random().toString(36).substring(2, 15) +
         Math.random().toString(36).substring(2, 15);
@@ -93,13 +87,17 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text style={styles.title}>React Native Google Wallet</Text>
       <Button title="Add pass" onPress={testpass} />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
+  title: {
+    fontSize: 24,
+    marginBottom: 16,
+  },
   container: {
     flex: 1,
     alignItems: 'center',

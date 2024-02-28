@@ -1,5 +1,7 @@
 # react-native-google-wallet
 
+![](https://github.com/aguschapuis/react-native-google-wallet/exmaple.gif)
+
 ## Installation
 
 ```sh
