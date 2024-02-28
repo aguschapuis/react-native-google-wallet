@@ -1,3 +1,6 @@
+Aquí tienes el README actualizado con la sección adicional y la imagen adjunta:
+
+```markdown
 # react-native-google-wallet
 
 ![Ejemplo de Google Wallet](https://raw.githubusercontent.com/aguschapuis/react-native-google-wallet/main/example.gif)
@@ -20,7 +23,9 @@ npm install react-native-google-wallet
 
 ### Creating a Generic Class:
 
-- Following the initial setup, create a generic class within the [Google Pay Business Console](https://pay.google.com/business/console) or utilize the [Wallet Lab Tools](https://wallet-lab-tools.web.app/issuers) for temporary testing purposes.
+- Following the initial setup, create a generic class within the [Google Pay Business Console](https://pay.google.com/business/console) or utilize the [Wallet Lab Tools](https://wallet-lab-tools.web.app/issuers) for temporary testing purposes. Once you've created your generic class, navigate to the Google Wallet API, click on "Additional Features", and add your app using the "Add an app" button as shown in the following photo:
+
+   ![Wallet api](walletapi.jpeg)
 
 ### Additional Resources:
 
@@ -118,3 +123,4 @@ MIT
 ---
 
 Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+```
