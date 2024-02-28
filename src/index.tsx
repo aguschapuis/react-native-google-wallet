@@ -20,3 +20,7 @@ const GoogleWallet = NativeModules.GoogleWallet
 export function multiply(a: number, b: number): Promise<number> {
   return GoogleWallet.multiply(a, b);
 }
+
+export function savePass(passData: string) {
+  return GoogleWallet.addPass(passData);
+}
