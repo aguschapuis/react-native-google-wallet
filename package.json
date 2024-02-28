@@ -1,10 +1,11 @@
 {
   "name": "react-native-google-wallet",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "Integration for react-native with google wallet",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
+  "private": false,
   "react-native": "src/index",
   "source": "src/index",
   "files": [
