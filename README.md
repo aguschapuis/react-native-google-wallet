@@ -1,6 +1,4 @@
-Aquí tienes el README actualizado con la sección adicional y la imagen adjunta:
 
-```markdown
 # react-native-google-wallet
 
 ![Ejemplo de Google Wallet](https://raw.githubusercontent.com/aguschapuis/react-native-google-wallet/main/example.gif)
