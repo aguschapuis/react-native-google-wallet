@@ -1,6 +1,6 @@
 {
   "name": "react-native-google-wallet",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Integration for react-native with google wallet",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
