@@ -17,6 +17,6 @@ const GoogleWallet = NativeModules.GoogleWallet
       }
     );
 
-export function savePass(passData: string) {
+export function addPass(passData: string) {
   return GoogleWallet.addPass(passData);
 }
