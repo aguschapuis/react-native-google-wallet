@@ -38,7 +38,12 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "google",
+    "google wallet",
+    "wallet",
+    "passes",
+    "pass"
   ],
   "repository": {
     "type": "git",

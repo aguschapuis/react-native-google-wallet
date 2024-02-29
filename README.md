@@ -110,6 +110,10 @@ const newObjectJsonString = JSON.stringify(newObjectJson);
 const result = await addPass(newObjectJsonString);
 ```
 
+## 🍀 Sponsors
+
+Love what I do? Send me some [coffee](https://www.buymeacoffee.com/aguschapuis)! 💖☕
+
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
